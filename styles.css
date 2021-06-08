@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(219, 219, 219);
+    margin: 0px;
+    padding: 0px;
+}
+
+.head {
+    background-color: maroon;
+    width: 100%;
+    position: relative;
+    margin: 0px 0px;
+    padding: 0px;
+    background-color: maroon;
+    color: white;
+    border-bottom: solid 10px yellow;
+    text-align: center;
+    font-size: 36pt;
+    font-weight: bold;
+}
+
+.account {
+    background-color: maroon;
+    color: white;
+    font-size: 24pt;
+    text-align: center;
+    border-bottom: solid 5px yellow ;
+}
+.banner {
+    display: flex;
+    background-color: maroon;
+    justify-content: center;
+    margin: 0px;
+    max-height: 450px;
+    border-bottom: solid 5px yellow;
+}
+
+img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    width: 100%;
+}
+
+.selector {
+    font-size: 16pt;
+    text-align: center;
+    background-color: lemonchiffon;
+    margin: 50px;
+    border-radius: 5px;
+    border: 5px solid maroon;
+}
+
+.label{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.menu {
+    background-color: white;
+    margin: 5px;
+    border: 2px solid black;
+    width: 150px;
+}
+
+.menu:hover {
+    border: solid 2px maroon;
+}
+
+.type {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    background-color: maroon;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid yellow;
+}
+
+h3 {
+    color: white;
+    font-size: 24pt;
+    text-align: center;
+}
+
+.amount {
+    font-size: 16pt;
+    height: 50px;
+    border: 2px solid black;
+}
+
+.amount:hover {
+    border: 2px solid yellow;
+}
+
+.execute {
+    background-color: lemonchiffon;
+    font-size: 16pt;
+    font-weight: bold;
+    height: 50px;
+    margin-left: 50px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.execute:hover {
+    border: 2px solid yellow;
+}
+
+
